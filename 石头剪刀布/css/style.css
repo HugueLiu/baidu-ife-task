@@ -1,0 +1,60 @@
+li{
+	list-style: none;
+}
+div.main{
+	width:600px;
+	height:400px;
+	border:1px solid red;
+	margin: 100px auto;
+	background: #7596FD;
+	position: relative;
+}
+div.main .p1{
+	margin: 30px;
+	position: relative;
+}
+
+div.main .p1 .info{
+	position: absolute;
+	right: 0;
+}
+div.main ul{
+	position: relative;
+	top:40px;
+}
+div.main ul li{
+	float: left;
+	margin-left: 20px;
+}
+div.clear{
+	clear: both;
+}
+div.main ul li img:hover{
+	currsor:pointer;
+	opacity: 0.6;
+}
+
+div.main div.res{
+	width:500px;
+	height:153px;
+	margin: 50px auto;
+	position: relative;
+}
+div.main div.res .my_img{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+div.main div.res .com_img{
+	position: absolute;
+	top: 10px;
+	right:30px;
+}
+div.main div.res .res_span{
+	position: absolute;
+	top: 70px;
+	left: 200px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
